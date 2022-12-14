@@ -1,0 +1,24 @@
+{
+  "name": "@b1nd/b1nd-design-core",
+  "version": "1.0.2",
+  "description": "b1nd design core",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts"
+  },
+  "scripts": {
+    "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
+    "build:clean": "rm -rf ./dist",
+    "build:dist": "node esbuild.config.js",
+    "build:declaration": "tsc"
+  },
+  "author": "ldh3907 <ldh165163@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
+    "esbuild": "^0.16.6"
+  }
+}
