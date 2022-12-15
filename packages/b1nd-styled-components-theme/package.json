@@ -1,0 +1,32 @@
+{
+  "name": "@b1nd/b1nd-styled-components-theme",
+  "version": "1.0.3",
+  "description": "b1nd styled-components theme",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
+    "build:clean": "rm -rf ./dist",
+    "build:dist": "node esbuild.config.js",
+    "build:declaration": "tsc"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts"
+  },
+  "keywrods": [
+    "styled-components",
+    "theme"
+  ],
+  "author": "ldh3907 <ldh165163@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/styled-components": "^5",
+    "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
+    "esbuild": "^0.16.7",
+    "react": "^18.2.0",
+    "styled-components": "^5.3.6"
+  }
+}

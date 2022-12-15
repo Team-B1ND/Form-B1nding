@@ -9,8 +9,7 @@ const SAFE_TIME = 456789e3;
 
 const PortablePath = {
   root: `/`,
-  dot: `.`,
-  parent: `..`
+  dot: `.`
 };
 const npath = Object.create(path);
 const ppath = Object.create(path.posix);
