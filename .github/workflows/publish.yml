@@ -23,7 +23,7 @@ jobs:
       - name: Install Dependencies
         run: |
           npm i yarn
-          yarn install 
+          yarn install --immutable --immutable-cache
 
       - name: Creating .npmrc
         run: | 
