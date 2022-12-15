@@ -14,8 +14,7 @@
   },
   "scripts": {
     "build:all": "yarn workspaces foreach -p run build",
-    "changeset": "changeset",
-    "release": "changeset publish",
-    "versioning": "changeset version"
+    "release": "yarn build:all && yarn changeset publish",
+    "versioning": "yarn changeset version"
   }
 }

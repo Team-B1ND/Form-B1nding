@@ -8,7 +8,7 @@
     "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
     "build:clean": "rm -rf ./dist",
     "build:dist": "node esbuild.config.js",
-    "build:declaration": "tsc"
+    "build:declaration": "yarn pnpify tsc"
   },
   "publishConfig": {
     "access": "public",
@@ -19,12 +19,14 @@
     "styled-components",
     "theme"
   ],
+  "sideEffects": false,
   "author": "ldh3907 <ldh165163@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18",
     "@types/styled-components": "^5",
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
+    "@yarnpkg/pnpify": "^4.0.0-rc.33",
     "esbuild": "^0.16.7",
     "react": "^18.2.0",
     "styled-components": "^5.3.6"

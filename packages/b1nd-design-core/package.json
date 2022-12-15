@@ -9,6 +9,7 @@
     "main": "./dist/index.js",
     "typings": "./dist/index.d.ts"
   },
+  "sideEffects": false,
   "scripts": {
     "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
     "build:clean": "rm -rf ./dist",
