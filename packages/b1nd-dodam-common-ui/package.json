@@ -1,7 +1,7 @@
 {
-  "name": "@b1nd/b1nd-styled-components-theme",
-  "version": "1.0.3",
-  "description": "b1nd styled-components theme",
+  "name": "@b1nd/b1nd-dodam-common-ui",
+  "version": "1.0.0",
+  "description": "b1nd dodam ui",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -10,25 +10,17 @@
     "build:dist": "node esbuild.config.js",
     "build:declaration": "yarn pnpify tsc"
   },
-  "publishConfig": {
-    "access": "public",
-    "main": "./dist/index.js",
-    "typings": "./dist/index.d.ts"
-  },
-  "keywrods": [
-    "ui",
-    "styled-components"
-  ],
-  "sideEffects": false,
   "author": "ldh3907 <ldh165163@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18",
+    "@types/react-dom": "^18",
     "@types/styled-components": "^5",
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
     "@yarnpkg/pnpify": "^4.0.0-rc.33",
     "esbuild": "^0.16.7",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "styled-components": "^5.3.6"
   }
 }
