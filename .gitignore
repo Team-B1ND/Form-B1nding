@@ -9,3 +9,5 @@
 !.yarn/cache
 #.pnp.*
 dist
+node_modules
+storybook-static
