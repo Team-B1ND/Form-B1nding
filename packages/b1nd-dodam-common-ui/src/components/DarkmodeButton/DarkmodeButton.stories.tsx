@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { DarkmodeButton } from ".";
 
 export default {
-  title: "Dodam  Common UI/Darkmode Button",
+  title: "Dodam Common UI/Darkmode Button",
   component: DarkmodeButton,
 } as ComponentMeta<typeof DarkmodeButton>;
 

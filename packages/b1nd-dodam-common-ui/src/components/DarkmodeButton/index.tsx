@@ -1,13 +1,12 @@
 import React from "react";
 import { DarkModeButtonContainer, DarkModeButtonWrap } from "./style";
+import { DarkmodeButtonProps } from "./types";
 
-interface Props {
-  onClick: React.MouseEventHandler<HTMLButtonElement>;
-  customStyle?: React.CSSProperties;
-  isDark: boolean;
-}
-
-export const DarkmodeButton = ({ onClick, customStyle, isDark }: Props) => {
+export const DarkmodeButton = ({
+  onClick,
+  customStyle,
+  isDark,
+}: DarkmodeButtonProps) => {
   return (
     <DarkModeButtonContainer
       onClick={onClick}
