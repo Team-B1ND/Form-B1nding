@@ -12,6 +12,11 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts"
+  },
   "author": "ldh3907 <ldh165163@gmail.com>",
   "license": "ISC",
   "peerDependencies": {
