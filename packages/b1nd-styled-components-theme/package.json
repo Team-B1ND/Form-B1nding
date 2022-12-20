@@ -16,8 +16,8 @@
     "typings": "./dist/index.d.ts"
   },
   "keywrods": [
-    "styled-components",
-    "theme"
+    "ui",
+    "styled-components"
   ],
   "sideEffects": false,
   "author": "ldh3907 <ldh165163@gmail.com>",
@@ -30,5 +30,9 @@
     "esbuild": "^0.16.7",
     "react": "^18.2.0",
     "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "18.0.0",
+    "styled-components": "5.3.5"
   }
 }

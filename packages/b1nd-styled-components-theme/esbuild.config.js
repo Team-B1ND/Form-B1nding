@@ -2,6 +2,11 @@ const { build } = require("esbuild");
 const pkg = require("./package.json");
 const { pnpPlugin } = require("@yarnpkg/esbuild-plugin-pnp");
 
+const external = Object.keys({
+    ...pkg.dependencies,
+    ...pkg.peerDependencies,
+  });
+
 build({
   entryPoints: ["./src/index.ts"],
   outfile: pkg.main,
@@ -9,6 +14,6 @@ build({
   platform: "node",
   sourcemap: true,
   bundle: true,
-  external: ["react", "styled-components"],
+  external: [...external],
   plugins: [pnpPlugin()],
 }).catch(() => process.exit(1));
