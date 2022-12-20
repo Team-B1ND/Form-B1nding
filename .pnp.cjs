@@ -89,7 +89,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@b1nd/b1nd-dodam-common-ui", "workspace:packages/b1nd-dodam-common-ui"],\
             ["@babel/core", "npm:7.16.0"],\
-            ["@mdx-js/react", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:1.6.22"],\
+            ["@mdx-js/react", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:2.2.1"],\
             ["@storybook/addon-docs", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:6.3.9"],\
             ["@storybook/addon-essentials", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:6.3.9"],\
             ["@storybook/addon-links", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:6.3.9"],\
@@ -5229,10 +5229,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:1.6.22", {\
-          "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-517522f6c2/0/cache/@mdx-js-react-npm-1.6.22-57e4c05c2b-bc84bd514b.zip/node_modules/@mdx-js/react/",\
+        ["npm:2.2.1", {\
+          "packageLocation": "./.yarn/cache/@mdx-js-react-npm-2.2.1-4655499d67-4462dad1d7.zip/node_modules/@mdx-js/react/",\
           "packageDependencies": [\
-            ["@mdx-js/react", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:1.6.22"],\
+            ["@mdx-js/react", "npm:2.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:1c7c884087591213ade44345f1bff4645c3436840f4785e21352f21c80953005cf8a331224b6290df78315a042387cdb1b32b65e6acb884754ffd18b15a1423c#npm:1.6.22", {\
+          "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-1ba4766273/0/cache/@mdx-js-react-npm-1.6.22-57e4c05c2b-bc84bd514b.zip/node_modules/@mdx-js/react/",\
+          "packageDependencies": [\
+            ["@mdx-js/react", "virtual:1c7c884087591213ade44345f1bff4645c3436840f4785e21352f21c80953005cf8a331224b6290df78315a042387cdb1b32b65e6acb884754ffd18b15a1423c#npm:1.6.22"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:2.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-8d211fe865/0/cache/@mdx-js-react-npm-2.2.1-4655499d67-4462dad1d7.zip/node_modules/@mdx-js/react/",\
+          "packageDependencies": [\
+            ["@mdx-js/react", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:2.2.1"],\
+            ["@types/mdx", "npm:2.0.3"],\
             ["@types/react", "npm:18.0.26"],\
             ["react", "npm:18.2.0"]\
           ],\
@@ -5589,7 +5610,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/transform", "npm:26.6.2"],\
             ["@mdx-js/loader", "npm:1.6.22"],\
             ["@mdx-js/mdx", "npm:1.6.22"],\
-            ["@mdx-js/react", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:1.6.22"],\
+            ["@mdx-js/react", "virtual:1c7c884087591213ade44345f1bff4645c3436840f4785e21352f21c80953005cf8a331224b6290df78315a042387cdb1b32b65e6acb884754ffd18b15a1423c#npm:1.6.22"],\
             ["@storybook/addons", "virtual:1c7c884087591213ade44345f1bff4645c3436840f4785e21352f21c80953005cf8a331224b6290df78315a042387cdb1b32b65e6acb884754ffd18b15a1423c#npm:6.3.9"],\
             ["@storybook/angular", null],\
             ["@storybook/api", "virtual:1c7c884087591213ade44345f1bff4645c3436840f4785e21352f21c80953005cf8a331224b6290df78315a042387cdb1b32b65e6acb884754ffd18b15a1423c#npm:6.3.9"],\
@@ -7387,6 +7408,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/mdast", "npm:3.0.10"],\
             ["@types/unist", "npm:2.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/mdx", [\
+        ["npm:2.0.3", {\
+          "packageLocation": "./.yarn/cache/@types-mdx-npm-2.0.3-0b710c028d-41deb51c29.zip/node_modules/@types/mdx/",\
+          "packageDependencies": [\
+            ["@types/mdx", "npm:2.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
