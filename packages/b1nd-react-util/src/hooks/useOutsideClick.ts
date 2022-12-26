@@ -1,15 +1,8 @@
-import {
-  Dispatch,
-  RefObject,
-  SetStateAction,
-  useEffect,
-  useCallback,
-  useRef,
-} from "react";
+import { useEffect, useCallback, useRef } from "react";
 
 type OneOrMore<T> = T | T[];
 
-interface UseOutsideClickProps {
+export interface UseOutsideClickProps {
   container: OneOrMore<HTMLElement | null>;
   callback: () => void;
 }

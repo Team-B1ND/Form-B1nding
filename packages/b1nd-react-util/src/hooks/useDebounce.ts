@@ -6,13 +6,13 @@ export const useDebounce = <F extends (...args: any[]) => any>(
   wait: number,
   options: Parameters<typeof debounce>[2] = {}
 ) => {
-  const debounced = useMemo(() => {
+  const debouncedCallback = useMemo(() => {
     return debounce(callback, wait, options);
   }, [callback, wait, options]);
 
   useEffect(() => {
-    return () => debounced.cancel();
-  }, [debounced]);
+    return () => debouncedCallback.cancel();
+  }, [debouncedCallback]);
 
-  return debounced;
+  return debouncedCallback;
 };

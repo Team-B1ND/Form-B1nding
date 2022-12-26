@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-interface UsePreventScrollProps {
+export interface UsePreventScrollProps {
   isPreventScroll: boolean;
 }
 
