@@ -1,0 +1,37 @@
+{
+  "name": "@b1nd/b1nd-react-util",
+  "version": "1.0.0",
+  "description": "b1nd react util collection",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
+    "build:clean": "rm -rf ./dist",
+    "build:dist": "node esbuild.config.js",
+    "build:declaration": "yarn pnpify tsc"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts"
+  },
+  "author": "ldh3907 <ldh165163@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
+    "esbuild": "^0.16.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@yarnpkg/pnpify": "^4.0.0-rc.34",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  }
+}
