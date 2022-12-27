@@ -10,11 +10,14 @@ interface Props {
 
 export function DebounceClick({ capture = "onClick", children, wait }: Props) {
   const child = Children.only(children);
-  const debouncedCallback = useDebounce((...args: any[]) => {
-    if (child.props && typeof child.props[capture] === "function") {
-      return child.props[capture](...args);
-    }
-  }, wait as number);
+  const debouncedCallback = useDebounce({
+    callback: (...args: any[]) => {
+      if (child.props && typeof child.props[capture] === "function") {
+        return child.props[capture](...args);
+      }
+    },
+    wait: wait as number,
+  });
 
   return cloneElement(child, {
     [capture]: debouncedCallback,
