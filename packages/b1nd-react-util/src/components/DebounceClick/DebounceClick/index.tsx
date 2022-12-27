@@ -8,7 +8,11 @@ interface Props {
   capture?: string;
 }
 
-export function DebounceClick({ capture = "onClick", children, wait }: Props) {
+export const DebounceClick = ({
+  capture = "onClick",
+  children,
+  wait,
+}: Props) => {
   const child = Children.only(children);
   const debouncedCallback = useDebounce({
     callback: (...args: any[]) => {
@@ -22,4 +26,4 @@ export function DebounceClick({ capture = "onClick", children, wait }: Props) {
   return cloneElement(child, {
     [capture]: debouncedCallback,
   });
-}
+};
