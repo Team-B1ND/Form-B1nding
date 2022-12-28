@@ -127,7 +127,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["esbuild", "npm:0.16.10"],\
             ["lodash", "npm:4.17.21"],\
             ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:18.2.0"]\
+            ["react-dom", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:18.2.0"],\
+            ["react-is", "npm:18.2.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
