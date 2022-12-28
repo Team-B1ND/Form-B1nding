@@ -21,7 +21,7 @@ jobs:
           node-version: "16.x"
 
       - name: Install Dependencies
-        run: yarn install
+        run: yarn install --immutable
 
       - name: Creating .npmrc
         run: |

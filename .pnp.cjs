@@ -7657,10 +7657,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.11.17", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.17-897ad73ae4-1933afd068.zip/node_modules/@types/node/",\
+        ["npm:18.11.18", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.18-d61e8a4a20-03f17f9480.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.11.17"]\
+            ["@types/node", "npm:18.11.18"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8398,7 +8398,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@yarnpkg-pnp-npm-4.0.0-rc.34-b73da8eab7-c3497f8cf0.zip/node_modules/@yarnpkg/pnp/",\
           "packageDependencies": [\
             ["@yarnpkg/pnp", "npm:4.0.0-rc.34"],\
-            ["@types/node", "npm:18.11.17"],\
+            ["@types/node", "npm:18.11.18"],\
             ["@yarnpkg/fslib", "npm:3.0.0-rc.34"]\
           ],\
           "linkType": "HARD"\
