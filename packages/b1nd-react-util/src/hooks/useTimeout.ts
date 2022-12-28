@@ -5,6 +5,10 @@ export interface UseTimeoutProps {
   delay: number;
 }
 
+/**
+ * @description
+ * window.setTimeout 을 쉽게 사용할 수 있는 hook 입니다.
+ */
 export const useTimeout = ({ callback, delay = 0 }: UseTimeoutProps) => {
   const savedCallback = useRef<() => void>();
 

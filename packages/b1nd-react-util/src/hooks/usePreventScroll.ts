@@ -4,6 +4,11 @@ export interface UsePreventScrollProps {
   isPreventScroll: boolean;
 }
 
+/**
+ * @description
+ * 스크롤 막는 것을 쉽게 사용할 수 있게 해주는 hook입니다.
+ */
+
 export const usePreventScroll = ({
   isPreventScroll,
 }: UsePreventScrollProps) => {

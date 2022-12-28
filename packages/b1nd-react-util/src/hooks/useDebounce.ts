@@ -7,6 +7,10 @@ export interface UseDebounceProps<F extends (...args: any[]) => any> {
   options?: Parameters<typeof debounce>[2];
 }
 
+/**
+ * @description
+ * `lodash/debounce` 를 쉽게 사용할 수 있는 hook 입니다.
+ */
 export const useDebounce = <F extends (...args: any[]) => any>({
   callback,
   wait,
@@ -17,6 +21,7 @@ export const useDebounce = <F extends (...args: any[]) => any>({
   }, [callback, wait, options]);
 
   useEffect(() => {
+    // 컴포넌트가 언마운트 될 때 디바운스를 취소해줘요.
     return () => debouncedCallback.cancel();
   }, [debouncedCallback]);
 

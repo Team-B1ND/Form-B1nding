@@ -6,7 +6,10 @@ export interface UseOutsideClickProps {
   container: OneOrMore<HTMLElement | null>;
   callback: () => void;
 }
-
+/**
+ * @description
+ * 입력한 컨테이너 밖의 요소에서 클릭 이벤트가 발생하였을때 콜백을 호출합니다.
+ */
 export const useOutsideClick = ({
   container,
   callback,
@@ -25,7 +28,7 @@ export const useOutsideClick = ({
 
       if (containers.current.length === 0) return;
 
-      //containers 안에 있는 ref중 하나라도 클릭됐다면 callback을 실행시키지 않음
+      //containers 안에 있는 ref중 하나라도 클릭됐다면 callback을 실행시키지 않아요
       if (containers.current.some((item) => item.contains(target as Node)))
         return;
 

@@ -5,6 +5,10 @@ export interface UseIntervalProps {
   delay?: number;
 }
 
+/**
+ * @description
+ * window.setInterval 을 쉽게 사용할 수 있는 hook 입니다.
+ */
 export const useInterval = ({ callback, delay }: UseIntervalProps) => {
   const savedCallback = useRef<() => void>();
 
