@@ -20,8 +20,16 @@ jobs:
         with:
           node-version: "16.x"
 
+      - name: Use cached node_modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: nodeModules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            nodeModules-
+
       - name: Install Dependencies
-        run: yarn install
+        run: yarn install --immutable
 
       - name: Creating .npmrc
         run: |

@@ -5804,6 +5804,9 @@ __metadata:
     esbuild: ^0.16.14
     react: ^18.2.0
     styled-components: ^5.3.6
+  peerDependencies:
+    react: 18.0.0
+    styled-components: 5.3.5
   languageName: unknown
   linkType: soft
 
