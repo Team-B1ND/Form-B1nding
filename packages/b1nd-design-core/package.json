@@ -21,5 +21,8 @@
   "dependencies": {
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
     "esbuild": "^0.16.6"
+  },
+  "devDependencies": {
+    "esbuild-css-modules-plugin": "^2.6.3"
   }
 }
