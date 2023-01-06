@@ -1,0 +1,33 @@
+{
+  "name": "b1nd-styled-components-util",
+  "version": "1.0.0",
+  "description": "b1nd styled-components util",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
+    "build:clean": "rm -rf ./dist",
+    "build:dist": "node esbuild.config.js",
+    "build:declaration": "yarn pnpify tsc"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts"
+  },
+  "author": "ldh3907 <ldh165163@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/styled-components": "^5",
+    "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
+    "@yarnpkg/pnpify": "^4.0.0-rc.34",
+    "esbuild": "^0.16.14",
+    "react": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "18.0.0",
+    "styled-components": "5.3.5"
+  }
+}
