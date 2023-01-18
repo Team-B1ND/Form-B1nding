@@ -29,7 +29,7 @@ jobs:
             nodeModules-
 
       - name: Install Dependencies
-        run: yarn install
+        run: yarn install --immutable
 
       - name: Creating .npmrc
         run: |
