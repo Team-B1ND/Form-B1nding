@@ -1,7 +1,7 @@
 {
   "name": "@b1nd/b1nd-toastify",
-  "version": "1.0.0",
-  "description": "b1nd react toastify",
+  "version": "1.0.1",
+  "description": "b1nd toastify",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
