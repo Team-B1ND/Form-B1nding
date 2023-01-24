@@ -1,0 +1,36 @@
+{
+  "name": "@b1nd/b1nd-toastify",
+  "version": "1.0.0",
+  "description": "b1nd react toastify",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
+    "build:clean": "rm -rf ./dist",
+    "build:dist": "node esbuild.config.js",
+    "build:declaration": "yarn pnpify tsc"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts"
+  },
+  "author": "ldh3907 <ldh165163@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
+    "@yarnpkg/pnpify": "^4.0.0-rc.36",
+    "esbuild": "^0.17.4",
+    "react": "^18.2.0",
+    "react-toastify": "^9.1.1"
+  },
+  "keywords": [
+    "react",
+    "react-toastify"
+  ],
+  "peerDependencies": {
+    "react": "18.0.0",
+    "react-toastify": "9.0.8"
+  }
+}
