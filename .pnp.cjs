@@ -24,10 +24,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:packages/b1nd-dodam-common-ui"\
       },\
       {\
-        "name": "@b1nd/b1nd-react-toastify",\
-        "reference": "workspace:packages/b1nd-react-toastify"\
-      },\
-      {\
         "name": "@b1nd/b1nd-react-util",\
         "reference": "workspace:packages/b1nd-react-util"\
       },\
@@ -38,6 +34,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "@b1nd/b1nd-styled-components-util",\
         "reference": "workspace:packages/b1nd-styled-components-util"\
+      },\
+      {\
+        "name": "@b1nd/b1nd-toastify",\
+        "reference": "workspace:packages/b1nd-toastify"\
       }\
     ],\
     "enableTopLevelFallback": true,\
@@ -45,10 +45,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "fallbackExclusionList": [\
       ["@b1nd/b1nd-design-core", ["workspace:packages/b1nd-design-core"]],\
       ["@b1nd/b1nd-dodam-common-ui", ["workspace:packages/b1nd-dodam-common-ui"]],\
-      ["@b1nd/b1nd-react-toastify", ["workspace:packages/b1nd-react-toastify"]],\
       ["@b1nd/b1nd-react-util", ["workspace:packages/b1nd-react-util"]],\
       ["@b1nd/b1nd-styled-components-theme", ["workspace:packages/b1nd-styled-components-theme"]],\
       ["@b1nd/b1nd-styled-components-util", ["workspace:packages/b1nd-styled-components-util"]],\
+      ["@b1nd/b1nd-toastify", ["workspace:packages/b1nd-toastify"]],\
       ["b1nd_design_system", ["workspace:."]]\
     ],\
     "fallbackPool": [\
@@ -126,21 +126,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT"\
         }]\
       ]],\
-      ["@b1nd/b1nd-react-toastify", [\
-        ["workspace:packages/b1nd-react-toastify", {\
-          "packageLocation": "./packages/b1nd-react-toastify/",\
-          "packageDependencies": [\
-            ["@b1nd/b1nd-react-toastify", "workspace:packages/b1nd-react-toastify"],\
-            ["@types/react", "npm:18.0.26"],\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:a7edfa9b57d1791d2e44ae9977875ba96d1ce17a4430b88d86f9475ea994dbd4ab08e56763cf0a9796ddf09684222c8b8146089e873b6da315f42f5a2a490d23#npm:3.0.0-rc.15"],\
-            ["@yarnpkg/pnpify", "npm:4.0.0-rc.36"],\
-            ["esbuild", "npm:0.17.4"],\
-            ["react", "npm:18.2.0"],\
-            ["react-toastify", "virtual:a7edfa9b57d1791d2e44ae9977875ba96d1ce17a4430b88d86f9475ea994dbd4ab08e56763cf0a9796ddf09684222c8b8146089e873b6da315f42f5a2a490d23#npm:9.1.1"]\
-          ],\
-          "linkType": "SOFT"\
-        }]\
-      ]],\
       ["@b1nd/b1nd-react-util", [\
         ["workspace:packages/b1nd-react-util", {\
           "packageLocation": "./packages/b1nd-react-util/",\
@@ -188,6 +173,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["esbuild", "npm:0.16.17"],\
             ["react", "npm:18.2.0"],\
             ["styled-components", "virtual:4e743a1caabb70744691acf29228d633565f51c6112c4d23243f0483fdacb1cb4e8298398be0e5459fe9f1c0d62dd7cb13f7a99cd87070c275bd881b20b828c8#npm:5.3.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@b1nd/b1nd-toastify", [\
+        ["workspace:packages/b1nd-toastify", {\
+          "packageLocation": "./packages/b1nd-toastify/",\
+          "packageDependencies": [\
+            ["@b1nd/b1nd-toastify", "workspace:packages/b1nd-toastify"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:0d1b481dddaef6a8b491da7acd3c9e72960220389304ae92cd622249fdcf9fcb8ea55b0e1e98868e697aac12451348317b80eab57bd8f7d6d7999b1438ee8b82#npm:3.0.0-rc.15"],\
+            ["@yarnpkg/pnpify", "npm:4.0.0-rc.36"],\
+            ["esbuild", "npm:0.17.4"],\
+            ["react", "npm:18.2.0"],\
+            ["react-toastify", "virtual:0d1b481dddaef6a8b491da7acd3c9e72960220389304ae92cd622249fdcf9fcb8ea55b0e1e98868e697aac12451348317b80eab57bd8f7d6d7999b1438ee8b82#npm:9.1.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -8150,10 +8150,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:a7edfa9b57d1791d2e44ae9977875ba96d1ce17a4430b88d86f9475ea994dbd4ab08e56763cf0a9796ddf09684222c8b8146089e873b6da315f42f5a2a490d23#npm:3.0.0-rc.15", {\
-          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-f789262b86/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-04da15355a.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+        ["virtual:0d1b481dddaef6a8b491da7acd3c9e72960220389304ae92cd622249fdcf9fcb8ea55b0e1e98868e697aac12451348317b80eab57bd8f7d6d7999b1438ee8b82#npm:3.0.0-rc.15", {\
+          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-96d91f6977/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-04da15355a.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
           "packageDependencies": [\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:a7edfa9b57d1791d2e44ae9977875ba96d1ce17a4430b88d86f9475ea994dbd4ab08e56763cf0a9796ddf09684222c8b8146089e873b6da315f42f5a2a490d23#npm:3.0.0-rc.15"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:0d1b481dddaef6a8b491da7acd3c9e72960220389304ae92cd622249fdcf9fcb8ea55b0e1e98868e697aac12451348317b80eab57bd8f7d6d7999b1438ee8b82#npm:3.0.0-rc.15"],\
             ["@types/esbuild", null],\
             ["esbuild", "npm:0.17.4"],\
             ["tslib", "npm:2.4.1"]\
@@ -18479,10 +18479,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:a7edfa9b57d1791d2e44ae9977875ba96d1ce17a4430b88d86f9475ea994dbd4ab08e56763cf0a9796ddf09684222c8b8146089e873b6da315f42f5a2a490d23#npm:9.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/react-toastify-virtual-0390347262/0/cache/react-toastify-npm-9.1.1-114b39ed7d-2039255539.zip/node_modules/react-toastify/",\
+        ["virtual:0d1b481dddaef6a8b491da7acd3c9e72960220389304ae92cd622249fdcf9fcb8ea55b0e1e98868e697aac12451348317b80eab57bd8f7d6d7999b1438ee8b82#npm:9.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-toastify-virtual-5f101cf088/0/cache/react-toastify-npm-9.1.1-114b39ed7d-2039255539.zip/node_modules/react-toastify/",\
           "packageDependencies": [\
-            ["react-toastify", "virtual:a7edfa9b57d1791d2e44ae9977875ba96d1ce17a4430b88d86f9475ea994dbd4ab08e56763cf0a9796ddf09684222c8b8146089e873b6da315f42f5a2a490d23#npm:9.1.1"],\
+            ["react-toastify", "virtual:0d1b481dddaef6a8b491da7acd3c9e72960220389304ae92cd622249fdcf9fcb8ea55b0e1e98868e697aac12451348317b80eab57bd8f7d6d7999b1438ee8b82#npm:9.1.1"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", null],\
             ["clsx", "npm:1.2.1"],\

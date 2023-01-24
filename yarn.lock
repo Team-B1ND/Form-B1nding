@@ -62,22 +62,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@b1nd/b1nd-react-toastify@workspace:packages/b1nd-react-toastify":
-  version: 0.0.0-use.local
-  resolution: "@b1nd/b1nd-react-toastify@workspace:packages/b1nd-react-toastify"
-  dependencies:
-    "@types/react": ^18.0.26
-    "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.15
-    "@yarnpkg/pnpify": ^4.0.0-rc.36
-    esbuild: ^0.17.4
-    react: ^18.2.0
-    react-toastify: ^9.1.1
-  peerDependencies:
-    react: 18.0.0
-    react-toastify: 9.0.8
-  languageName: unknown
-  linkType: soft
-
 "@b1nd/b1nd-react-util@workspace:packages/b1nd-react-util":
   version: 0.0.0-use.local
   resolution: "@b1nd/b1nd-react-util@workspace:packages/b1nd-react-util"
@@ -130,6 +114,22 @@ __metadata:
   peerDependencies:
     react: 18.0.0
     styled-components: 5.3.5
+  languageName: unknown
+  linkType: soft
+
+"@b1nd/b1nd-toastify@workspace:packages/b1nd-toastify":
+  version: 0.0.0-use.local
+  resolution: "@b1nd/b1nd-toastify@workspace:packages/b1nd-toastify"
+  dependencies:
+    "@types/react": ^18.0.26
+    "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.15
+    "@yarnpkg/pnpify": ^4.0.0-rc.36
+    esbuild: ^0.17.4
+    react: ^18.2.0
+    react-toastify: ^9.1.1
+  peerDependencies:
+    react: 18.0.0
+    react-toastify: 9.0.8
   languageName: unknown
   linkType: soft
 
