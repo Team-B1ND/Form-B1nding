@@ -128,7 +128,7 @@ __metadata:
     react: ^18.2.0
     react-toastify: ^9.1.1
   peerDependencies:
-    react: 18.0.0
+    react: ">=18.0.0"
     react-toastify: 9.0.8
   languageName: unknown
   linkType: soft

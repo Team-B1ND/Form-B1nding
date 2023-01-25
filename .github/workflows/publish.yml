@@ -28,9 +28,6 @@ jobs:
           restore-keys: |
             nodeModules-
 
-      - name: Yarn Cache Clean All
-        run: yarn cache clean --all
-
       - name: Install Dependencies
         run: yarn install --immutable
 
