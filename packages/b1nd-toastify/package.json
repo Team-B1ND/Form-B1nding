@@ -1,6 +1,6 @@
 {
   "name": "@b1nd/b1nd-toastify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "b1nd toastify",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
