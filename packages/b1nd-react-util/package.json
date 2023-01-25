@@ -1,6 +1,6 @@
 {
   "name": "@b1nd/b1nd-react-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "b1nd react util collection",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -33,7 +33,7 @@
   },
   "peerDependencies": {
     "lodash": "^4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
   }
 }

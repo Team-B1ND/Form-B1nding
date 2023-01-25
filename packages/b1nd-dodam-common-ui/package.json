@@ -1,6 +1,6 @@
 {
   "name": "@b1nd/b1nd-dodam-common-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "b1nd dodam ui",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -20,9 +20,9 @@
   "author": "ldh3907 <ldh165163@gmail.com>",
   "license": "ISC",
   "peerDependencies": {
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "styled-components": "5.3.5"
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "styled-components": ">=5.3.5"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",

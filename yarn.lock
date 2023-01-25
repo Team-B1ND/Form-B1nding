@@ -56,9 +56,9 @@ __metadata:
     react-is: ^18.2.0
     styled-components: ^5.3.6
   peerDependencies:
-    react: 18.0.0
-    react-dom: 18.0.0
-    styled-components: 5.3.5
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+    styled-components: ">=5.3.5"
   languageName: unknown
   linkType: soft
 
@@ -78,8 +78,8 @@ __metadata:
     react-is: ^18.2.0
   peerDependencies:
     lodash: ^4
-    react: 18.0.0
-    react-dom: 18.0.0
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
   languageName: unknown
   linkType: soft
 
@@ -95,8 +95,8 @@ __metadata:
     react: ^18.2.0
     styled-components: ^5.3.6
   peerDependencies:
-    react: 18.0.0
-    styled-components: 5.3.5
+    react: ">=18.0.0"
+    styled-components: ">=5.3.5"
   languageName: unknown
   linkType: soft
 
@@ -112,8 +112,8 @@ __metadata:
     react: ^18.2.0
     styled-components: ^5.3.6
   peerDependencies:
-    react: 18.0.0
-    styled-components: 5.3.5
+    react: ">=18.0.0"
+    styled-components: ">=5.3.5"
   languageName: unknown
   linkType: soft
 
@@ -129,7 +129,7 @@ __metadata:
     react-toastify: ^9.1.1
   peerDependencies:
     react: ">=18.0.0"
-    react-toastify: 9.0.8
+    react-toastify: ">=9.0.8"
   languageName: unknown
   linkType: soft
 
