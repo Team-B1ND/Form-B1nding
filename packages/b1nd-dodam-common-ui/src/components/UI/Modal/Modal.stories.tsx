@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Modal from ".";
 
 export default {
-  title: "Dodam Common UI/Modal",
+  title: "Dodam Common UI/UI/Modal",
   components: Modal,
 };
 

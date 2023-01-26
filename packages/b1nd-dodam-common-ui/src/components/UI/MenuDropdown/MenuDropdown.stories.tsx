@@ -3,7 +3,7 @@ import React from "react";
 import { MenuDropdown } from ".";
 
 export default {
-  title: "Dodam Common UI/MenuDropdown",
+  title: "Dodam Common UI/UI/MenuDropdown",
   components: MenuDropdown,
 };
 

@@ -1,2 +1,1 @@
-export * from "./DarkmodeButton";
-export * from "./Spinner";
+export * from "./UI";

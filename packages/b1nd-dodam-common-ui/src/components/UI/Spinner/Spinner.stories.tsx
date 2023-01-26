@@ -3,7 +3,7 @@ import React from "react";
 import { Spinner } from ".";
 
 export default {
-  title: "Dodam Common UI/Spinner",
+  title: "Dodam Common UI/UI/Spinner",
   component: Spinner,
 } as ComponentMeta<typeof Spinner>;
 
