@@ -4,21 +4,21 @@ import { FlexProps } from "./types";
 
 export const Flex = ({
   children,
-  gap = 0,
-  justify = "start",
-  align = "start",
-  direction = "row",
+  gap,
+  justify,
+  align,
+  direction,
   customStyle,
 }: FlexProps) => {
   return (
     <FlexContainer
       style={{
         ...customStyle,
-        gap,
-        justifyContent: justify,
-        alignItems: align,
-        flexDirection: direction,
       }}
+      justify={justify}
+      align={align}
+      gap={gap}
+      direction={direction}
     >
       {children}
     </FlexContainer>

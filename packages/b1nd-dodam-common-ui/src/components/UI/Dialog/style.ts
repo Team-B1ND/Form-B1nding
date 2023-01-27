@@ -26,7 +26,7 @@ export const DialogContainer = styled.div<{ width: number }>`
 
 export const DialogTitleText = styled.h1`
   width: 100%;
-  font-size: 30px;
+  font-size: 25px;
   color: black;
   font-weight: bold;
   text-align: center;
