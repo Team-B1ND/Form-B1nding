@@ -6,7 +6,7 @@ import {
   MenuDropdownItemWrap,
 } from "./style";
 import { MenuDropdownProps } from "./types";
-import MenuDropdownPeriodIcon from "../../assets/icon/MenuDropdown/MenuDropdownPeriodIcon.png";
+import MenuDropdownPeriodIcon from "../../../assets/icon/MenuDropdown/MenuDropdownPeriodIcon.png";
 
 export const MenuDropdown = ({
   sizeType,
