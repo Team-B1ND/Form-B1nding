@@ -118,6 +118,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/esbuild-plugin-pnp", "virtual:0b1c53d3eb805d4a63b0d87aea181fdb16b7b0174fa0d69dcc408ec9faa808369a54e54ab2eda249d1137de9f71901ce0644576b300098bb47d166e80720b8ec#npm:3.0.0-rc.15"],\
             ["@yarnpkg/pnpify", "npm:4.0.0-rc.37"],\
             ["esbuild", "npm:0.16.17"],\
+            ["esbuild-plugin-inline-image", "npm:0.0.9"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
@@ -11865,6 +11866,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/esbuild",\
             "esbuild"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["esbuild-plugin-inline-image", [\
+        ["npm:0.0.9", {\
+          "packageLocation": "./.yarn/cache/esbuild-plugin-inline-image-npm-0.0.9-f78f899153-c8aa0abace.zip/node_modules/esbuild-plugin-inline-image/",\
+          "packageDependencies": [\
+            ["esbuild-plugin-inline-image", "npm:0.0.9"]\
           ],\
           "linkType": "HARD"\
         }]\

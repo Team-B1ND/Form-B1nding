@@ -38,6 +38,7 @@
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
     "@yarnpkg/pnpify": "^4.0.0-rc.33",
     "esbuild": "^0.16.7",
+    "esbuild-plugin-inline-image": "^0.0.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",

@@ -51,6 +51,7 @@ __metadata:
     "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.15
     "@yarnpkg/pnpify": ^4.0.0-rc.33
     esbuild: ^0.16.7
+    esbuild-plugin-inline-image: ^0.0.9
     react: ^18.2.0
     react-dom: ^18.2.0
     react-is: ^18.2.0
@@ -7788,6 +7789,13 @@ __metadata:
   peerDependencies:
     esbuild: "*"
   checksum: d02e3f721a056718a534b0cb66adf49f64490e7235a5610bf8b8bf2bcce741ef1c869516e64217ba4637bc7db95cb6b27ef65d3022a24f6f8d67ec3db8edbd7d
+  languageName: node
+  linkType: hard
+
+"esbuild-plugin-inline-image@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "esbuild-plugin-inline-image@npm:0.0.9"
+  checksum: c8aa0abacefb169b822f34599cc4188fdffcb0da4d585d92aecba342e2cf6184b48bb0b461899926a74592e6c4c78ed730e31ea45b61d03fdd8ef06f7c64d07a
   languageName: node
   linkType: hard
 
