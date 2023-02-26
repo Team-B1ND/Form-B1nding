@@ -16,4 +16,4 @@ UI 컴포넌트, Util 함수, Animation 등 프로덕트를 개발하는데 유�
 - [**@b1nd/b1nd-styled-components-util**](https://team-b1nd.github.io/Form-B1nding-Docs/docs/category/b1ndb1nd-styled-components-util) styled-components를 사용할 때 유용한 함수나, 애니메이션 등을 제공합니다.
 - [**@b1nd/b1nd-styled-components-theme**](https://team-b1nd.github.io/Form-B1nding-Docs/docs/category/b1ndb1nd-toastify) 바인드팀이 사용하는 toast를 클래스로 제공합니다.
 
-[Form B1nding 공식 문서](https://slash.page)
+[Form B1nding 공식 문서](https://team-b1nd.github.io/Form-B1nding-Docs/)
