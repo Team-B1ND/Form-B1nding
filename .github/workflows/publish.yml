@@ -43,7 +43,7 @@ jobs:
         uses: changesets/action@v1
         with:
           publish: yarn release
-          version: yarn version-packages
+          version: yarn versioning
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_REGISTRY_TOKEN: ${{ secrets.NPM_REGISTRY_TOKEN }}
