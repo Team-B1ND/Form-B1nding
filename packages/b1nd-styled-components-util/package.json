@@ -1,6 +1,6 @@
 {
   "name": "@b1nd/b1nd-styled-components-util",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "b1nd styled-components util",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

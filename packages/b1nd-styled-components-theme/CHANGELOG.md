@@ -1,5 +1,11 @@
 # @b1nd/b1nd-styled-components-theme
 
+## 1.0.7
+
+### Patch Changes
+
+- Changesets testing...
+
 ## 1.0.6
 
 ### Patch Changes
