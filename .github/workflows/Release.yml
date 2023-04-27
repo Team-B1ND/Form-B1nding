@@ -38,4 +38,4 @@ jobs:
           version: yarn versioning
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_REGISTRY_TOKEN: ${{ secrets.NPM_REGISTRY_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
