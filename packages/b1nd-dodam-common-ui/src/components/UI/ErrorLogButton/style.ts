@@ -11,6 +11,7 @@ export const ErrorLogButtonContainer = styled.button`
   border: 0px;
   display: flex;
   align-items: center;
+  background-color: #337d5b;
 `;
 
 export const ErrorLogButtonWrap = styled.div`
@@ -21,5 +22,6 @@ export const ErrorLogButtonWrap = styled.div`
 
   span {
     font-size: 0.8rem;
+    color: white;
   }
 `;

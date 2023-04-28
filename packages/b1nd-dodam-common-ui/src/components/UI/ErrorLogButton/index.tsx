@@ -4,7 +4,7 @@ import { ErrorLogButtonProps } from "./types";
 
 const ErrorLogButton = ({ onClick, customStyle }: ErrorLogButtonProps) => {
   return (
-    <ErrorLogButtonContainer>
+    <ErrorLogButtonContainer onClick={onClick} style={{ ...customStyle }}>
       <ErrorLogButtonWrap>
         <span>에러 제보하기</span>
       </ErrorLogButtonWrap>
