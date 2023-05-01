@@ -121,6 +121,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["esbuild-plugin-inline-image", "npm:0.0.9"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:18.2.0"],\
+            ["react-icons", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:4.8.0"],\
             ["react-is", "npm:18.2.0"],\
             ["styled-components", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:5.3.6"]\
           ],\
@@ -18166,6 +18167,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/react-dom",\
             "@types/react",\
             "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-icons", [\
+        ["npm:4.8.0", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.8.0-aa5423cd6c-4dbba7ad98.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.8.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:4.8.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-d37e480f65/0/cache/react-icons-npm-4.8.0-aa5423cd6c-4dbba7ad98.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:6dd5a0073de8810effedb3db87e8eb7e93b7c654c2b45615d9d107972999b3d4be22e73829fd0c4f0cb20b7cbca63874a8341dbafb092cb32a2c73481817a555#npm:4.8.0"],\
+            ["@types/react", "npm:18.0.27"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
             "react"\
           ],\
           "linkType": "HARD"\
